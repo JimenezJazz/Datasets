@@ -1,0 +1,23 @@
+﻿NUM_CAMPO,NOMBRE_CAMPO,LONGITUD,TIPO,NEMÓNICO,CATÁLOGO,RANGO_CLAVES,VALORES
+1,Resultado definitivo de la entrevista,2,C,r_def,r_def,[00-15]                                                           ,0-Entrevista completa| 1-Nadie en el momento de la entrevista| 2-Ausente temporal| …15-Entrevista suspendida
+2,Entidad federativa,2,C,cve_entidad,cve_ent,[01-32],01-Aguascalientes| 02-Baja California| etc
+3,Número de municipio según entidad,3,C,cve_municipio,cve_mun,[001-575],001-Aguascalientes| 002-Asientos| 003-Calvillo| etc
+4,Ciudad autorrepresentada,2,C,cd_autorepresentada,cd_a,[01-52]  [81-86],1-México| 2-Guadalajara| 3-Monterrey| etc
+5,Sexo,1,C,sexo,sex,[1-2],1-Hombre| 2-Mujer
+6,Edad,2,C,edad,eda,[00-99],0-Años| 1-Año| 2-Años| 3-Años| etc
+7,Dí­a de nacimiento,2,C,nac_dia,nac_dia,[01-31_ 99],1-Día uno| 2-Día dos| etc hasta 99-Día no especificado
+8,Mes de nacimiento,2,C,nac_mes,nac_mes,[01-12_99],1-Enero| 2-Febrero| etc hasta 99-Mes no especificado
+9,Año de nacimiento,4,C,nac_anio,,1900 al año actual o 9999,
+10,¿Hasta qué año aprobó... en la escuela?,2,C,gdo_estudios,cs_p13_1,[00-09_99],0-Ninguno| 1-Preescolar| 2-Primaria| 3-Secundaria| 4-Preparatoria| 5-Normal| 6-Carrera técnica| 7-Profesional| 8-Maestría| 9-Dcotorado| 99-No sabe
+11,Clave de la carrera,6,C,cve_profesion,cs_p14_c,Catálogo CMPE (carreras),11000-Planes multidisciplinarios o generales del campo de ciencias de la educación y pedagogía| 11100-Diseño curricular …etc
+12,Estado conyugal,1,C,edo_civil,e_con,[1-6_ 9],1-Unión libre| 2-Separado| 3-Divorciasdo| 4-Viudo| 5-Casado| 6-Soltero|9-No sabe
+13,Zona salarial,1,N,zona_salarial,zona,[1-2],0-No Aplica| 1-Zona 1 Frontera Norte| 2-Zona 2 Resto del país
+14,Clasificación de la población en PEA y PNEA,1,N,clase1,clase1,[1-2],0-No Aplica| 1-Población economicamente Activa| 1-Población económicamente Inactiva
+15,Clasificación por posición en la ocupación,1,N,pos_ocupada,pos_ocu,[1-5],0-No Aplica| 1-Trabajadores subordinados y remunerados| 2-Empleadores| 3-Trabajadores por cuenta propia| 4-Trabajadores sin pago| 5-No especificado
+16,Clasificación por sector de actividad económica,1,N,sector,rama,[1-7],0-No Aplica| 1-Construcción| 2-Industria manufacturera| 3-Comercio| 4-Servicios| 5-Otros| 6-Agropecuario| 7-No especificado
+17,Clasificación por condición de la ocupación,2,N,clasif_empleo,c_ocu11c,[1-11],0-No Aplica| 1-Profesionales| técnicos y trabajadores del arte| 2-Trabajadores de la Educación| 3-Funcionarios y directivos| 4-Oficinistas| 5-Trabajadores industriales  artesanos y ayudantes| 6-Comerciantes| 7-Operadores de transporte| 8-Trabajadores en servicios personales| 9-Trabajadores en protección y vigilancia| 10-Trabajadores agropecuarios| 11-No especificado
+18,Clasificación por condición de desempleo,1,N,cve_desempleo,d_cexp_est,[1-4],0-No Aplica| 1-Perdió o terminó su empleo anterior| 2-Insatisfacción con el empleo anterior| 3-Dejó o cerró un negocio propio| 4-Otro
+19,Clasificación de la duración del desempleo,1,N,dur_desempleo,dur_des,[1-6],0-No Aplica| 1-Hasta 1 mes| 2-Mas de 1 mes hasta 3 meses| 3-Más de 3 mes hasta 6 meses| 4-Más de 6 meses hasta 1 año| 5-Más de 1 año| 6-No especificado
+20,Horas trabajadas en la semana,3,N,hrs_TrabajadasxSemana,,[1-168],
+21,Ingreso mensual,6,N,ing_mensual,,[1-999998],
+22,Clasificación de empleos formales e informales de la primera actividad,1,N,clasif_empleo,emp_ppal,[1-2],0-No Aplica| 1-Empleo Informal| 2-Empleo Formal
