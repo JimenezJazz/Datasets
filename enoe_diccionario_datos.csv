@@ -7,8 +7,8 @@
 6,Edad,2,C,edad,eda,[00-99],0-Años| 1-Año| 2-Años| 3-Años| etc
 7,Dí­a de nacimiento,2,C,nac_dia,nac_dia,[01-31_ 99],1-Día uno| 2-Día dos| etc hasta 99-Día no especificado
 8,Mes de nacimiento,2,C,nac_mes,nac_mes,[01-12_99],1-Enero| 2-Febrero| etc hasta 99-Mes no especificado
-9,Año de nacimiento,4,C,nac_anio,,1900 al año actual o 9999,
-10,¿Hasta qué año aprobó... en la escuela?,2,C,gdo_estudios,cs_p13_1,[00-09_99],0-Ninguno| 1-Preescolar| 2-Primaria| 3-Secundaria| 4-Preparatoria| 5-Normal| 6-Carrera técnica| 7-Profesional| 8-Maestría| 9-Dcotorado| 99-No sabe
+9,Año de nacimiento,4,C,nac_anio, ,1900 al año actual o 9999, 
+10,¿Hasta qué año aprobó en la escuela?,2,C,gdo_estudios,cs_p13_1,[00-09_99],0-Ninguno| 1-Preescolar| 2-Primaria| 3-Secundaria| 4-Preparatoria| 5-Normal| 6-Carrera técnica| 7-Profesional| 8-Maestría| 9-Dcotorado| 99-No sabe
 11,Clave de la carrera,6,C,cve_profesion,cs_p14_c,Catálogo CMPE (carreras),11000-Planes multidisciplinarios o generales del campo de ciencias de la educación y pedagogía| 11100-Diseño curricular …etc
 12,Estado conyugal,1,C,edo_civil,e_con,[1-6_ 9],1-Unión libre| 2-Separado| 3-Divorciasdo| 4-Viudo| 5-Casado| 6-Soltero|9-No sabe
 13,Zona salarial,1,N,zona_salarial,zona,[1-2],0-No Aplica| 1-Zona 1 Frontera Norte| 2-Zona 2 Resto del país
@@ -18,6 +18,6 @@
 17,Clasificación por condición de la ocupación,2,N,clasif_empleo,c_ocu11c,[1-11],0-No Aplica| 1-Profesionales| técnicos y trabajadores del arte| 2-Trabajadores de la Educación| 3-Funcionarios y directivos| 4-Oficinistas| 5-Trabajadores industriales  artesanos y ayudantes| 6-Comerciantes| 7-Operadores de transporte| 8-Trabajadores en servicios personales| 9-Trabajadores en protección y vigilancia| 10-Trabajadores agropecuarios| 11-No especificado
 18,Clasificación por condición de desempleo,1,N,cve_desempleo,d_cexp_est,[1-4],0-No Aplica| 1-Perdió o terminó su empleo anterior| 2-Insatisfacción con el empleo anterior| 3-Dejó o cerró un negocio propio| 4-Otro
 19,Clasificación de la duración del desempleo,1,N,dur_desempleo,dur_des,[1-6],0-No Aplica| 1-Hasta 1 mes| 2-Mas de 1 mes hasta 3 meses| 3-Más de 3 mes hasta 6 meses| 4-Más de 6 meses hasta 1 año| 5-Más de 1 año| 6-No especificado
-20,Horas trabajadas en la semana,3,N,hrs_TrabajadasxSemana,,[1-168],
-21,Ingreso mensual,6,N,ing_mensual,,[1-999998],
+20,Horas trabajadas en la semana,3,N,hrs_TrabajadasxSemana, ,[1-168], 
+21,Ingreso mensual,6,N,ing_mensual, ,[1-999998], 
 22,Clasificación de empleos formales e informales de la primera actividad,1,N,clasif_empleo,emp_ppal,[1-2],0-No Aplica| 1-Empleo Informal| 2-Empleo Formal
